@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon-ivan.png">
+    
+
+    <title>Archivos multimedia</title>
+  </head>
+
+  <body>
+    <h1>Archivos multimedia</h1>
+
+    <h2>Imágenes</h2>
+
+    <h3>Imágenes desde una url</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_types_3.jpg/375px-Coat_types_3.jpg" alt="">
+
+
+    <h3>Imágenes desde un archivo</h3>
+    <!--! Norma número 1: Siempre rellenar el atributo alt="" con información acerca de lo que contiene la imagen  -->
+    <img src="./assets/img/elefante.jp" alt="Foto de un elefante africano precioso">
+
+
+    <p>Siempre podemos darle un ancho distinto a las imagenes usando los atributos width="" y height=""</p>
+
+    <!-- Podemos usar pixeles para los tamaños -->
+    <img src="./assets/img/cucharas-madera.jpg" width="200px" alt="Cucharas de madera en un marmol blanco">
+
+    <br>
+
+    <!-- Y también tantos por ciento, que siempre hacen referencia a la caja que los contenga (a su padre) -->
+    <img src="./assets/img/cucharas-madera.jpg" width="50%" alt="Cucharas de madera en un marmol blanco">
+    
+    <br>
+    <h4>Jamás le des ancho y alto fijo a las fotos a no ser que cuadres perfectamente la proporción que tenga la foto.</h4>
+    <img src="./assets/img/cucharas-madera.jpg" width="200px" height="200px" alt="Cucharas de madera en un marmol blanco">
+
+    <!--! Norma número 2: Aunque te permitan cambiar el tamaño de las imágenes cuando las insertas. NUNCA DEBERÍAS USAR UN ARCHIVO DE UNA IMAGEN QUE SEA MÁS GRANDE DE LO QUE LA VAS A MOSTRAR.  -->
+
+    <br>
+
+    <img src="./assets/img/elefante.jpg" width="300px" alt="Elefante africano">
+
+
+    <h3>Pie de foto de las imágenes, nunca hacerlo simplemente con una img y un párrafo</h3>
+
+    <div>
+      <img src="./assets/img/elefante.jpg" width="300" alt="Elefante africano">
+      <p>Foto de un elefante africano</p>
+    </div>
+
+    <p>La forma correcta de relacionar un pie con una foto es usar figure y figcaption</p>
+
+    <figure>
+      <img src="./assets/img/elefante.jpg" width="300" alt="Elefante africano">
+      <figcaption>Foto de un elefante africano</figcaption>
+    </figure>
+
+    
+  </body>
+</html>
