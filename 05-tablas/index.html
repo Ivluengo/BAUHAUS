@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tablas en HTML</title>
+  </head>
+
+  <body>
+    <h1>Tablas en HTML</h1>
+
+    <!-- Las etiquetas necesarias para una tabla, principalmente son:
+    
+      table -> envuelve a toda la tabla (como si fuera un <ul>)
+
+      caption -> Título de la tabla
+
+      tr -> Para cada fila de la tabla generamos un <tr>
+
+      th -> Cada celda pero que sea título de una columna o fila
+
+      td -> Para cada celda que contenga datos de la tabla
+
+    -->
+
+    <table border="1">
+      <caption>Tabla sencilla</caption>
+
+      <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Edad</th>
+      </tr>
+
+
+      <tr>
+        <td>Ivan</td>
+        <td>Luengo</td>
+        <td>36</td>        
+      </tr>
+
+
+      <tr>
+        <td>Jessica</td>
+        <td>Hernández</td>
+        <td>3???</td>
+      </tr>
+
+    </table>
+
+
+
+    <hr>
+
+
+    <table border="1">
+      <caption>Tabla con combinación de columnas y filas</caption>
+
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+      </tr>
+
+
+      <tr>
+        <td>Ivan</td>
+        <td>Luengo</td>
+        <td rowspan="2">36</td>
+      </tr>
+
+      <tr>
+        <td>Carlos</td>
+        <td>García</td>        
+      </tr>
+
+      <tr>
+        <td>Sergio</td>
+        <td>López</td>
+        <td>40</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">MEDIA EDAD</td>        
+        <td>37.5</td>
+      </tr>
+
+    </table>    
+
+    
+  </body>
+</html>

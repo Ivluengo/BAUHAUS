@@ -6,6 +6,7 @@
 2. Auto Rename Tags -> Para que automáticamente te cambie los nombres de las etiquetas de cierre de HTML
 3. HTML Preview -> Para que dentro del mismo VSCode podamos ver una previsualización del archivo HTML que estamos editando. Al instalarlo aparece un icono arriba a la derecha con una lupa.
 4. Live Server -> Para generar un servidor ficticio y poder ver los cambios que hagamos en la web sin tener que refrescar la página.
+5. Markdown All in One -> Nos ayuda a escribir markdown más rápido aún.
 
 
 ## Snippets en VSCode
